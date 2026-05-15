@@ -109,7 +109,7 @@ const RegisterPage = () => {
 
               <input
                 type="text"
-                placeholder="Vishnu"
+                placeholder="John"
                 {...register("firstName", {
                   required: "First name required",
                 })}
@@ -132,7 +132,7 @@ const RegisterPage = () => {
 
               <input
                 type="text"
-                placeholder="Naik"
+                placeholder="Doe"
                 {...register("lastName", {
                   required: "Last name required",
                 })}
@@ -156,7 +156,7 @@ const RegisterPage = () => {
 
             <input
               type="email"
-              placeholder="vishnu@gmail.com"
+              placeholder="johnudoe123@gmail.com"
               {...register("email", {
                 required: "Email required",
 
