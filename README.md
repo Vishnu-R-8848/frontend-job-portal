@@ -23,3 +23,4 @@ const API_URL = `https://api.adzuna.com/v1/api/jobs/in/search/${page}?app_id=00b
 userName : "vishnu",
 role : "developer",
 ]
+# frontend-job-portal
