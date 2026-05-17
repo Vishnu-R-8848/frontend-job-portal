@@ -34,11 +34,11 @@ const RegisterPage = () => {
       setServerError("");
 
       const payload = {
-        firstName: data.firstName,
-        lastName: data.lastName,
+        first_name: data.firstName,
+        last_name: data.lastName,
         email: data.email,
         password: data.password,
-        confirmPassword: data.confirmPassword,
+        confirm_password: data.confirmPassword,
         role: data.role,
       };
 
