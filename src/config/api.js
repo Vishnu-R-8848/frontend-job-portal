@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_BASE_URL || "https://job-portal-production-60c4.up.railway.app/api",
+  baseURL: import.meta.env.VITE_API_BASE_URL || "https://job-portal-production-f0a3.up.railway.app/api",
 });
 
 api.interceptors.request.use((config) => {
