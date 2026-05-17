@@ -192,11 +192,11 @@ const RegisterPage = () => {
             >
               <option value="">Select Role</option>
 
-              <option value="candidate">
+              <option value="Job Seeker">
                 Candidate
               </option>
 
-              <option value="hr">HR</option>
+              <option value="HR">HR</option>
             </select>
 
             {errors.role && (
